@@ -641,47 +641,6 @@ section {
     width: 50%;
   }
 }
-
-.section-title-w {
-  text-align: center;
-  padding-bottom: 30px;
-}
-
-.section-title-w h2 {
-  font-size: 13px;
-  letter-spacing: 1px;
-  font-weight: 700;
-  padding: 8px 20px;
-  margin: 0;
-  background: #646464;
-  color: #ffffff;
-  display: inline-block;
-  text-transform: uppercase;
-  border-radius: 50px;
-}
-
-.section-title-w h3 {
-  margin: 15px 0 0 0;
-  font-size: 32px;
-  font-weight: 700;
-  color: white;
-}
-
-.section-title-w h3 span {
-  color: #115796;
-}
-
-.section-title-w p {
-  margin: 15px auto 0 auto;
-  font-weight: 600;
-  color: #d6d6d6;
-}
-
-@media (min-width: 1024px) {
-  .section-title-w p {
-    width: 50%;
-  }
-}
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -821,6 +780,47 @@ section {
 
 .featured-services .icon-box:hover .icon i {
   color: #fff;
+}
+
+.featured-services .section-title-w {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.featured-services .section-title-w h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0;
+  background: #646464;
+  color: #ffffff;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+.featured-services .section-title-w h3 {
+  margin: 15px 0 0 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.featured-services .section-title-w h3 span {
+  color: #115796;
+}
+
+.featured-services .section-title-w p {
+  margin: 15px auto 0 auto;
+  font-weight: 600;
+  color: #d6d6d6;
+}
+
+@media (min-width: 1024px) {
+  .featured-services .section-title-w p {
+    width: 50%;
+  }
 }
 
 /*--------------------------------------------------------------
