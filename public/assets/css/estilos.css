@@ -149,12 +149,36 @@ h6 {
   text-decoration: underline;
 }
 
-#topbar .social-links a {
-  color: rgba(255, 255, 255, 0.7);
+#topbar .social-links .whatsapp {
+  color: #dbdbdb;
   line-height: 0;
   transition: 0.3s;
   margin-left: 20px;
+  background-color: #25D366;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
 }
+
+#topbar .social-links .facebook {
+  color: #dbdbdb;
+  line-height: 0;
+  transition: 0.3s;
+  margin-left: 20px;
+  background-color: #4267B2;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+
+#topbar .social-links .instagram {
+  color: #dbdbdb;
+  line-height: 0;
+  transition: 0.3s;
+  margin-left: 20px;
+  background-color: #C13584;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+
 
 #topbar .social-links a:hover {
   color: white;
@@ -1002,7 +1026,7 @@ section {
 
 .team .member {
   margin-bottom: 20px;
-  margin: 0 10%;
+  margin: 0 20%;
   overflow: hidden;
   border-radius: 4px;
   background: #fff;
@@ -1314,10 +1338,40 @@ section {
   color: #115796;
 }
 
-#footer .footer-top .social-links a {
+#footer .footer-top .social-links .whatsapp {
   font-size: 18px;
   display: inline-block;
-  background: #115796;
+  background: #25D366;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links .facebook {
+  font-size: 18px;
+  display: inline-block;
+  background: #4267B2;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links .instagram {
+  font-size: 18px;
+  display: inline-block;
+  background: #C13584;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
